@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <!-- 유저가 입력한 데이터를 서버에게 보내주기 위해 form 생성 -->
+    <form action="/signup2" method="post">
+        <label for="_id">ID</label>
+        <input type="text" name="_id" id="_id">
+        <br>
+        <label for="_pass">PASSWORD</label>
+        <input type="password" name="_pass" id="_pass">
+        <br>
+        <label for="_name">NAME</label>
+        <input type="text" name="_name" id="_name">
+        <br>
+        <label for="_age">AGE</label>
+        <input type="number" name="_age" id="_age">
+        <br>
+        <input type="submit" value="회원가입">
+    </form>
+</body>
+</html>

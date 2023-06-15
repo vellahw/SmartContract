@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>로그인</h1>
+    <fieldset>
+        <form action="/signin" method="post">
+            <!-- id 입력란 -->
+            <label id="_id">ID</label>
+            <input type="text" name="_id"><br>
+            <label id="_pass">PASSWORD</label>
+            <input type="password" name="_pass"><br>
+            <input type="submit" value="로그인">
+        </form>
+    </fieldset>
+    <a href="/signup">회원가입</a>
+</body>
+</html>
