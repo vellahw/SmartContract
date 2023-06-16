@@ -62,7 +62,7 @@ app.post('/signup2', (req, res) => {
     .send({
         gas : 200000,
         // 가나슈에서 가져온 지갑 주소
-        from : '0x7Bf9fA02c12f0d8C3501B2a720134Eb9a4374194'
+        from : '0x0D4B57a809e4FCbb1d842F4a2A0bfFaFA96d34Cf'
     })
     .then(function(receipt){
         console.log(receipt)
